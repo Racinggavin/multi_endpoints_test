@@ -1,0 +1,11 @@
+
+type Ticket {
+  id: String!,
+  amount: Int!,
+  level: Int!,
+  date: String!,
+}
+
+type Query {
+  ticket(id: String!): Ticket!
+}

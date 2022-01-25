@@ -1,0 +1,8 @@
+query Test2($postId: String!) {
+  ticket(id: $ticketId) {
+    id
+    level
+    amount
+    date
+  }
+}
