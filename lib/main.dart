@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:graphql_app1/graphql_app1.dart';
+import 'package:graphql_app2/graphql_app2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,6 +47,10 @@ class MyHomePage extends StatefulWidget {
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
+}
+
+void graphqlCall() {
+  GTest1R
 }
 
 class _MyHomePageState extends State<MyHomePage> {
